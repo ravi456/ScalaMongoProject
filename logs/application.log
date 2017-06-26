@@ -1,0 +1,106 @@
+2017-06-25 23:33:34,690 [INFO] from application in scala-execution-context-global-814 - ApplicationTimer demo: Starting application at 2017-06-25T22:33:34.689Z.
+2017-06-25 23:33:35,448 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-814 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+    filters.ExampleFilter
+
+2017-06-25 23:33:35,464 [INFO] from play.api.Play in scala-execution-context-global-814 - Application started (Dev)
+2017-06-25 23:39:13,740 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-18 - 
+
+! @74efn654f - Internal server error, for (GET) [/getpage] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[not found: value Candidate]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27)
+	at scala.Option.map(Option.scala:145)
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49)
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44)
+	at scala.Option.map(Option.scala:145)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40)
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17)
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17)
+	at scala.util.Either$LeftProjection.map(Either.scala:377)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$3.apply(PlayRun.scala:71)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$3.apply(PlayRun.scala:71)
+	at play.runsupport.Reloader$$anonfun$reload$1.apply(Reloader.scala:413)
+	at play.runsupport.Reloader$$anon$5.run(Reloader.scala:51)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:47)
+	at play.runsupport.Reloader.reload(Reloader.scala:411)
+	at play.core.server.DevServerStart$$anon$1.$anonfun$get$1(DevServerStart.scala:125)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:653)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:287)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:140)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2017-06-26 01:03:59,596 [INFO] from application in scala-execution-context-global-56749 - ApplicationTimer demo: Stopping application at 2017-06-26T00:03:59.596Z after 5425s.
+2017-06-26 01:03:59,745 [INFO] from application in scala-execution-context-global-56749 - ApplicationTimer demo: Starting application at 2017-06-26T00:03:59.745Z.
+2017-06-26 01:03:59,965 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-56749 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+    filters.ExampleFilter
+
+2017-06-26 01:03:59,966 [INFO] from play.api.Play in scala-execution-context-global-56749 - Application started (Dev)
+2017-06-26 01:05:45,745 [INFO] from application in scala-execution-context-global-57909 - ApplicationTimer demo: Stopping application at 2017-06-26T00:05:45.745Z after 106s.
+2017-06-26 01:05:45,869 [INFO] from application in scala-execution-context-global-57909 - ApplicationTimer demo: Starting application at 2017-06-26T00:05:45.868Z.
+2017-06-26 01:05:46,069 [INFO] from play.api.http.EnabledFilters in scala-execution-context-global-57909 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+    filters.ExampleFilter
+
+2017-06-26 01:05:46,069 [INFO] from play.api.Play in scala-execution-context-global-57909 - Application started (Dev)
+2017-06-26 03:19:41,867 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-20 - 
+
+! @74eh04leb - Internal server error, for (GET) [/postmodel] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[object modules is not a member of package play]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27)
+	at scala.Option.map(Option.scala:145)
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49)
+	at play.sbt.run.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44)
+	at scala.Option.map(Option.scala:145)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:44)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:40)
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17)
+	at play.sbt.run.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17)
+	at scala.util.Either$LeftProjection.map(Either.scala:377)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:17)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$3.apply(PlayRun.scala:71)
+	at play.sbt.run.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$3.apply(PlayRun.scala:71)
+	at play.runsupport.Reloader$$anonfun$reload$1.apply(Reloader.scala:413)
+	at play.runsupport.Reloader$$anon$5.run(Reloader.scala:51)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:47)
+	at play.runsupport.Reloader.reload(Reloader.scala:411)
+	at play.core.server.DevServerStart$$anon$1.$anonfun$get$1(DevServerStart.scala:125)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:653)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:287)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:140)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
